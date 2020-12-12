@@ -7,5 +7,13 @@ function saveRecord(data) {
 
   //check for service worker
 
-  //
+  //SW lifecycle
+
+  // install -> create bulk (pending) collection
+
+  // activate ->
+
+  // saveRecord -> save to indexedDB
+
+  // listen to when we are back online and send records
 }
